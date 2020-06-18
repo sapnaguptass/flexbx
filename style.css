@@ -1,0 +1,26 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+main
+{
+width:75%;
+margin:50px auto;
+border:1px solid red;
+display:grid;
+grid-template-rows:900px 500px 500px 500px 500px 300px 600px;
+}
+.box1{background-color:pink;
+
+grid-template-columns:40% 60%;
+}
+.box2{background-color:blue;}
+.box3{background-color:black;}
+.box4{background-color:orange;}
+.box5{background-color:red;}
+.box6{background-color:pink;}
+.box7{background-color:orange;}
+
+
